@@ -7,7 +7,7 @@ The project can be executed using steps mentioned below in the setup section. A 
 
 Data Structure:
 1. Raw Data Layer:
-   The raw data provided in csv and json files is placed in the raw data folder. The raw data is loaded in the public schema of postgres during database initialization. We take the ELT approach.
+   The raw data provided in csv and json files is placed in the raw data folder. The raw data is loaded in the public schema of postgres during database initialization. We take the ELT approach. The create table statements reside in the init file.
    The data will reside in public schema as tables.
 2. Staging Layer
    Staging views are created on top of these raw data tables, this gives the space to clean data and maintain data quality before we transform data into models. Views are present in models>staging folder.
