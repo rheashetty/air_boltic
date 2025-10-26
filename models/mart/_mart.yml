@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_customer
+  - name: dim_customer_group
+  - name: dim_aeroplane
+  - name: fct_orders
+  - name: fct_trips
+  - name: master_aeroplane_model
+
+      

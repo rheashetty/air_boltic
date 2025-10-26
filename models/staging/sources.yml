@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: public
+    database: postgres
+    schema: public
+    tables:
+      - name: customer
+      - name: aeroplane
+      - name: aeroplane_model
+      - name: trip
+      - name: orders
+      - name: customer_group
