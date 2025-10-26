@@ -36,7 +36,7 @@ CREATE TABLE customer_group (
 
 -- Table for customer.csv
 CREATE TABLE customer (
-    customer_id_id INT PRIMARY KEY,
+    customer_id INT PRIMARY KEY,
     name VARCHAR(100),
     customer_group_id int,
     email VARCHAR(100),

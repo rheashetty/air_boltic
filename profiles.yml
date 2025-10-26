@@ -1,11 +1,11 @@
-enpal_assessment_project:
+air_boltic:
   outputs:
     dev:
       dbname: postgres
       host: localhost
       pass: admin
       port: 5432
-      schema: public
+      schema: analytics
       threads: 1
       type: postgres
       user: admin
