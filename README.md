@@ -30,4 +30,5 @@ SETUP
     Port: 5432 
 5. (Optional) Connect to the db via a preferred tool
 6. Install dbt-core and dbt-postgres using pip (if you don’t have) on your preferred environment.
-7. Run the command dbt run
+7. Run the command dbt deps
+8. Run the command dbt run
